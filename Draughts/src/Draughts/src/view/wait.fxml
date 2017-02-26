@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane styleClass="mainPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WaitController">
+   <center>
+      <GridPane>
+         
+      	<Label  text="Waiting for connection..." GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+      	<Button onAction="#cancelConnection" mnemonicParsing="false" text="Cancel" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+         
+      </GridPane>
+   </center>
+</BorderPane>

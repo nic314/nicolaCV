@@ -1,0 +1,35 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.text-field {
+	-fx-border-style: solid;
+}
+.text-field, .button, .label {
+	-fx-font-size: 15.0px;
+}
+
+.mainPane {
+	-fx-padding: 20.0px;
+	-fx-background-color: linear-gradient( from 100.0% 0.0% to 100.0% 100.0%, rgb(255.0,255.0,255.0) 0.0, rgb(179.0,179.0,179.0) 100.0);
+}
+
+.button {
+	-fx-pref-width: 100.0px;
+	
+}
+.button2 {
+	-fx-translate-y: 10.0px;
+	
+}
+
+.buttonSet{
+	-fx-padding: 10.0px 0.0px 20.0px 30.0px;
+	-fx-hgap: 20.0px;
+
+	
+}
+.textSet{
+	-fx-hgap: 10.0px;
+	-fx-vgap: 10.0px;
+
+	
+}

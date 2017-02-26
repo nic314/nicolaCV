@@ -1,0 +1,35 @@
+.mainPane {
+	-fx-background-color: linear-gradient( from 100.0% 0.0% to 100.0% 100.0%, rgb(255.0,255.0,255.0) 0.0, rgb(179.0,179.0,179.0) 100.0);
+}
+
+.button{
+	-fx-max-height: 65px;
+	-fx-max-width: 65px;
+	-fx-min-height: 65px;
+	-fx-min-width: 65px;
+}
+
+.label{
+	-fx-font-size: 30;
+	-fx-font-weight: bold;
+	-fx-alignment: center;
+	-fx-max-height: 72px;
+	-fx-max-width: 2000px;
+	-fx-min-height: 72px;
+	-fx-min-width: 200px;
+	
+}
+
+.textView{
+	-fx-font-size: 15;
+}
+
+.extraButton{
+	-fx-font-size: 20;
+	-fx-alignment: center;
+	-fx-max-height: 40px;
+	-fx-max-width: 2000px;
+	-fx-min-height: 50px;
+	-fx-min-width: 200px;
+	
+}

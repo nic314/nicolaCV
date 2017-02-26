@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane fx:id="homePane" styleClass="mainPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controller.HomeController">
+<center>
+		<GridPane styleClass="textSet">
+			<Label text="IP" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+			<TextField fx:id="ipField" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+			<Label text ="PORT" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+			<TextField fx:id="portField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+			<Label text ="Name" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+			<TextField fx:id="nameField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+		</GridPane>
+	</center>
+	<bottom>
+		<GridPane styleClass="buttonSet">
+			<Button text="HOST" onAction="#host" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+			<Button text="CONNECT" onAction="#connect" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+			<Button styleClass="button2" onAction="#replay" text="REPLAY" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+			<Button styleClass="button2" onAction="#rules" text="INFO" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+		</GridPane>
+	</bottom>
+</BorderPane>

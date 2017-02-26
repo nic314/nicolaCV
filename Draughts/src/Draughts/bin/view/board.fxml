@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane styleClass="mainPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BoardController">
+   <center>
+      <GridPane>
+      	<children>
+	      	<GridPane fx:id="gameGrid" GridPane.columnIndex="0" GridPane.rowIndex="0">
+
+            </GridPane>
+	      	<GridPane GridPane.columnIndex="1" GridPane.rowIndex="0">
+	      		<children>
+			      	<GridPane GridPane.columnIndex="0" GridPane.rowIndex="0">
+			      		<children>
+			      			<Label text="chat"/>
+				            <TextArea styleClass="textView" fx:id="chatField" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+				            <TextField styleClass="textView" fx:id="messField" onAction="#sendMess" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+				            <Button styleClass="extraButton" fx:id="messSend" onAction="#sendMess" text="send" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+					        <Label fx:id="turnLabel" text="Extra" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+					        <Button styleClass="extraButton" onAction="#rules" text="Rules" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+					        <Button styleClass="extraButton" onAction="#info" text="Info" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+					         
+				    	</children>
+				    </GridPane>
+		    	</children>
+		  	</GridPane>
+		  </children>
+      </GridPane>
+   </center>
+</BorderPane>

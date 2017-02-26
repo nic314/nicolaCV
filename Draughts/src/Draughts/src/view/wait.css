@@ -1,0 +1,13 @@
+.label{
+	-fx-padding: 30.0px 0.0px 50.0px 40.0px;
+	-fx-font-size: 22.0;
+}
+
+.button{
+	-fx-font-size: 22;
+	-fx-translate-x: 110;
+}
+
+.mainPane {
+	-fx-background-color: linear-gradient( from 100.0% 0.0% to 100.0% 100.0%, rgb(255.0,255.0,255.0) 0.0, rgb(179.0,179.0,179.0) 100.0);
+}
