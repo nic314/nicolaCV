@@ -1,0 +1,103 @@
+\hypertarget{main_8c}{\section{main.\-c File Reference}
+\label{main_8c}\index{main.\-c@{main.\-c}}
+}
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$fcntl.\-h$>$}\\*
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include $<$sys/ipc.\-h$>$}\\*
+{\ttfamily \#include $<$sys/shm.\-h$>$}\\*
+{\ttfamily \#include $<$sys/types.\-h$>$}\\*
+{\ttfamily \#include $<$sys/sem.\-h$>$}\\*
+Include dependency graph for main.\-c\-:
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{int {\bfseries main} ()}\label{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+\end{DoxyCompactItemize}
+\begin{Indent}{\bf funzioni}\par
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{main_8c_a3af48179ef95928c096f15337b608471}{find\-Next} (char $\ast$source, int inizio, char d, char $\ast$$\ast$result)
+\begin{DoxyCompactList}\small\item\em Trova la sottostringa seguente usando il delimitatore dato. \end{DoxyCompactList}\item 
+void \hyperlink{main_8c_a491f63b4d85ae3d2c21307c1eddfcc62}{sem\-\_\-signal} (int sem\-\_\-number)
+\begin{DoxyCompactList}\small\item\em Funzione usata per simulare il comportamento signal dei semafori, incrementando il valore del semaforo. \end{DoxyCompactList}\item 
+void \hyperlink{main_8c_a52ea138993337d9779d2118952818452}{sem\-\_\-wait} (int sem\-\_\-number)
+\begin{DoxyCompactList}\small\item\em Funzione usata per simulare il comportamento wait dei semafori, decrementando il valore del semaforo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{main_8c_a84341e726cc6b14682180e6a782736af}{struct sembuf {\bfseries semb}}\label{main_8c_a84341e726cc6b14682180e6a782736af}
+
+\item 
+\hypertarget{main_8c_a9937720392d06678f2d5cdf6a09bffa6}{int {\bfseries semaforo}}\label{main_8c_a9937720392d06678f2d5cdf6a09bffa6}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+S\-U\-P\-P\-O\-S\-I\-Z\-I\-O\-N\-I\-: i valori inseriti nel file sono numeri interi,come i risultati, il formato delle iterazioni è \char`\"{}$<$id$>$ $<$num1$>$ $<$op$>$ $<$num2$>$\char`\"{}, L'elaborato e strutturato in un unico file contente 3 funzioni più la funzione main. Il programma analizza il file di testo iterazioni.\-txt, crea un array di strutture \char`\"{}iter\char`\"{} ogni struttura rappresenta un iterazione,la memoria condivisa è un array di struct \char`\"{}iter\char`\"{} dove ogni processo ha una struttura ad esso associata. Per lo svolgimento sono stati usati un numero di semafori pari a N\-P\-R\-O\-C$\ast$2+1, dove i primi N\-P\-R\-O\-C semafori inizializzati ad 1 sono usati dal padre per capire se un processo è occupato mentre i seguenti N\-P\-R\-O\-C semafori inizializzati a 0 sono usati dal padre per avviare i processi figlio una volta che sono state caricate le informazioni relative all'iterazione, il semaforo rimanente viene usato come un semaforo intero e tiene traccia del numero di processi liberi. Il comando di terminazione K viene inviato ai processi tramite la variabile operatore presente nella struct 'iter'. Il risultato dell'operazione viene stampato sul file risultati.\-txt 
+
+\subsection{Function Documentation}
+\hypertarget{main_8c_a3af48179ef95928c096f15337b608471}{\index{main.\-c@{main.\-c}!find\-Next@{find\-Next}}
+\index{find\-Next@{find\-Next}!main.c@{main.\-c}}
+\subsubsection[{find\-Next}]{\setlength{\rightskip}{0pt plus 5cm}int find\-Next (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{source, }
+\item[{int}]{inizio, }
+\item[{char}]{d, }
+\item[{char $\ast$$\ast$}]{result}
+\end{DoxyParamCaption}
+)}}\label{main_8c_a3af48179ef95928c096f15337b608471}
+
+
+Trova la sottostringa seguente usando il delimitatore dato. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & La stringa originale. \\
+\hline
+{\em inizio} & La posizione da cui iniziare a creare la nuova sottostringa. \\
+\hline
+{\em d} & Il carattere usato come delimitatore. \\
+\hline
+{\em result} & L'indirizzo in cui sara salvata la nuova sottostringa. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Il numero di caratteri che compongono la nuova sottostringa. 
+\end{DoxyReturn}
+\hypertarget{main_8c_a491f63b4d85ae3d2c21307c1eddfcc62}{\index{main.\-c@{main.\-c}!sem\-\_\-signal@{sem\-\_\-signal}}
+\index{sem\-\_\-signal@{sem\-\_\-signal}!main.c@{main.\-c}}
+\subsubsection[{sem\-\_\-signal}]{\setlength{\rightskip}{0pt plus 5cm}void sem\-\_\-signal (
+\begin{DoxyParamCaption}
+\item[{int}]{sem\-\_\-number}
+\end{DoxyParamCaption}
+)}}\label{main_8c_a491f63b4d85ae3d2c21307c1eddfcc62}
+
+
+Funzione usata per simulare il comportamento signal dei semafori, incrementando il valore del semaforo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sem\-\_\-number} & Il semaforo su cui effettuare l'operazione \\
+\hline
+\end{DoxyParams}
+\hypertarget{main_8c_a52ea138993337d9779d2118952818452}{\index{main.\-c@{main.\-c}!sem\-\_\-wait@{sem\-\_\-wait}}
+\index{sem\-\_\-wait@{sem\-\_\-wait}!main.c@{main.\-c}}
+\subsubsection[{sem\-\_\-wait}]{\setlength{\rightskip}{0pt plus 5cm}void sem\-\_\-wait (
+\begin{DoxyParamCaption}
+\item[{int}]{sem\-\_\-number}
+\end{DoxyParamCaption}
+)}}\label{main_8c_a52ea138993337d9779d2118952818452}
+
+
+Funzione usata per simulare il comportamento wait dei semafori, decrementando il valore del semaforo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sem\-\_\-number} & Il semaforo su cui effettuare l'operazione \\
+\hline
+\end{DoxyParams}

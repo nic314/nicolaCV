@@ -1,0 +1,2 @@
+Progetto sviluppato in C che legge un file txt contenente una serie di operazioni 
+da svolgere in parallelo su più processi e con l'uso di semafori e memoria condivisa

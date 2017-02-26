@@ -1,0 +1,2 @@
+Progetto sviluppato per il corso si sistemi operativi.
+Gestisce la prenotazione delle aule scolastiche con salvataggio su file .txt

@@ -1,0 +1,5 @@
+risultato iterazione 1 = 0 
+risultato iterazione 2 = 887 
+risultato iterazione 3 = 3597 
+risultato iterazione 4 = 63682 
+risultato iterazione 5 = -21534 
