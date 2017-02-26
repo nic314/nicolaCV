@@ -13,7 +13,7 @@ Developed in <b>C</b> using Doxigen for the Documentation<br>
 [Source file](https://github.com/nic314/nicolaCV/blob/master/C_linux_system_call/src/main.c)
 
 <h3>Bash</h3> For the subject "Sistemi Operativi" University of Verona 2014 <br>
-Script for manage the class reservation of the school, using a text file
+Script for manage the class reservation of the school, using a text file<br>
 Developed in <b>Shell script</b><br>
 [Source file](https://github.com/nic314/nicolaCV/blob/master/Bash/NicolaGemo_Shell.sh)
 
