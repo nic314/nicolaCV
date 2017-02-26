@@ -1,2 +1,5 @@
-Progetto sviluppato per il corso si sistemi operativi.
-Gestisce la prenotazione delle aule scolastiche con salvataggio su file .txt
+Bash
+For the subject "Sistemi Operativi" University of Verona 2014 
+
+Script for manage the class reservation of the school, using a text file
+Developed in Shell script

@@ -1,2 +1,9 @@
-Progetto sviluppato in C che legge un file txt contenente una serie di operazioni 
-da svolgere in parallelo su più processi e con l'uso di semafori e memoria condivisa
+C_linux_system_call:
+For the subject "Sistemi Operativi" University of Verona 2015 
+
+Multi process application that read math operation from a TXT input file, 
+
+Using semphore,shared memory and paraller computation
+for process them.
+
+Developed in C using Doxigen for the Documentation
