@@ -3,7 +3,7 @@ Online videogame based on the Draugth game, with and integrated chat and match r
 The application is written in <b>java</b> programming language, using the <b>MVC</b> architecture and Eclipse IDE. <br>
 It use libraries like <b>javafx, java.net(TCP prot.), thread and the UI interface is written in fxml and css.</b> <br>
 For more information <br> 
-[PDF](https://github.com/nic314/nicolaCV/blob/master/Draughts(java)/Draughts.pdf) o 
+[PDF](https://github.com/nic314/nicolaCV/blob/master/Draughts(java)/Draughts.pdf)
 
 
 [PowerPoint](https://github.com/nic314/nicolaCV/blob/master/Draughts(java)/appDevFinal.pptx)  <br>
