@@ -2,9 +2,10 @@
 Online videogame based on the Draugth game, with and integrated chat and match replay. <br>
 The application is written in <b>java</b> programming language, using the <b>MVC</b> architecture and Eclipse IDE. <br>
 It use libraries like <b>javafx, java.net(TCP prot.), thread and the UI interface is written in fxml and css.</b> <br>
-For more information [PDF]: https://github.com/nic314/nicolaCV/blob/master/Draughts(java)/Draughts.pdf o 
+For more information [PDF](https://github.com/nic314/nicolaCV/blob/master/Draughts(java)/Draughts.pdf) o 
  [PowerPoint](https://github.com/nic314/nicolaCV/blob/master/Draughts(java)/appDevFinal.pptx)<br>
 [Source file](https://github.com/nic314/nicolaCV/tree/master/Draughts(java)/src/Draughts/src)
+[contributing](CONTRIBUTING.md)
 
 <h3>C_linux_system_call:</h3> For the subject "Sistemi Operativi" University of Verona 2015 <br>
 Multi process application that read math operation from a TXT input file, <br>
