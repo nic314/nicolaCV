@@ -6,7 +6,7 @@ For more information
 
 [PDF](https://github.com/nic314/nicolaCV/blob/master/Draughts(java)/Draughts.pdf) o 
 
- [PowerPoint](https://github.com/nic314/nicolaCV/blob/master/Draughts(java)/appDevFinal.pptx)  
+[PowerPoint](https://github.com/nic314/nicolaCV/blob/master/Draughts(java)/appDevFinal.pptx)  
  
 [Source file](https://github.com/nic314/nicolaCV/tree/master/Draughts(java)/src/Draughts/src)
 
