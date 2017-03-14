@@ -19,6 +19,7 @@ Developed in <b>C</b> using Doxigen for the Documentation<br>
 <h3>Bash</h3> For the subject "Sistemi Operativi" University of Verona 2015 <br>
 Script for manage the class reservation of the school, using a text file<br>
 Developed in <b>Shell script</b><br>
+
 [Source file](https://github.com/nic314/nicolaCV/blob/master/Bash/NicolaGemo_Shell.sh)
 
 
@@ -26,12 +27,16 @@ Developed in <b>Shell script</b><br>
 <h3>Assembly</h3> For the subject "Archittetura degli elaboratori" University of Verona 2014 <br>
 Calculate the inclination of airplane's flap based on the weight of the passengers.<br>
 Developed in <b>Assembly</b>.<br>
-For more info [PDF](https://github.com/nic314/nicolaCV/blob/master/assembly/info.pdf)<br>
+For more info: 
+
+[PDF](https://github.com/nic314/nicolaCV/blob/master/assembly/info.pdf)<br>
 [Source file](https://github.com/nic314/nicolaCV/tree/master/assembly/src)
 
 
 <h3>Ocaml</h3> For the subject "Linguaggi" University of Verona 2017 <br>
 Interpreter of a didactic language made in Denotational Semantic.<br>
 Developed in <b>Ocaml</b> with <b>Functional programming</b>.<br>
-For more info [PDF](https://github.com/nic314/nicolaCV/blob/master/Ocaml/Interpreter.pdf)<br>
+For more info: 
+
+[PDF](https://github.com/nic314/nicolaCV/blob/master/Ocaml/Interpreter.pdf)<br>
 [Source file](https://github.com/nic314/nicolaCV/blob/master/Ocaml/s.ml)
